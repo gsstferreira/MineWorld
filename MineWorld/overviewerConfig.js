@@ -23,11 +23,11 @@ var overviewerConfig = {
         "LOWERRIGHT": 2
     },
     "worlds": [
-        "world"
+        "Coronavalis - overworld"
     ],
     "map": {
         "debug": true,
-        "cacheTag": "1590986533",
+        "cacheTag": "1592409869",
         "north_direction": "lower-left",
         "controls": {
             "pan": true,
@@ -41,29 +41,56 @@ var overviewerConfig = {
     },
     "tilesets": [
         {
-            "name": "Overviewer Render (lighting)",
+            "name": "Overworld Day",
             "zoomLevels": 10,
             "defaultZoom": 1,
             "maxZoom": 10,
-            "path": "world-lighting",
+            "path": "overworld",
             "base": "",
             "bgcolor": "#1a1a1a",
-            "world": "world",
-            "last_rendertime": 1590981832,
-            "imgextension": "png",
+            "world": "Coronavalis - overworld",
+            "last_rendertime": 1592400137,
+            "imgextension": "jpg",
             "isOverlay": false,
             "poititle": "Markers",
             "showlocationmarker": true,
             "center": [
-                546,
-                99,
-                1580
+                635,
+                80,
+                1679
             ],
             "minZoom": 0,
             "spawn": [
-                546,
-                99,
-                1580
+                635,
+                80,
+                1679
+            ],
+            "north_direction": 0
+        },
+        {
+            "name": "Overworld Night",
+            "zoomLevels": 10,
+            "defaultZoom": 1,
+            "maxZoom": 10,
+            "path": "overworld_night",
+            "base": "",
+            "bgcolor": "#1a1a1a",
+            "world": "Coronavalis - overworld",
+            "last_rendertime": 1592400137,
+            "imgextension": "jpg",
+            "isOverlay": false,
+            "poititle": "Markers",
+            "showlocationmarker": true,
+            "center": [
+                635,
+                80,
+                1679
+            ],
+            "minZoom": 0,
+            "spawn": [
+                635,
+                80,
+                1679
             ],
             "north_direction": 0
         }
