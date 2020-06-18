@@ -23,11 +23,12 @@ var overviewerConfig = {
         "LOWERRIGHT": 2
     },
     "worlds": [
-        "Coronavalis - overworld"
+        "Coronavalis - overworld",
+        "Origins - overworld"
     ],
     "map": {
         "debug": true,
-        "cacheTag": "1592409869",
+        "cacheTag": "1592510938",
         "north_direction": "lower-left",
         "controls": {
             "pan": true,
@@ -49,15 +50,15 @@ var overviewerConfig = {
             "base": "",
             "bgcolor": "#1a1a1a",
             "world": "Coronavalis - overworld",
-            "last_rendertime": 1592400137,
+            "last_rendertime": 1592451457,
             "imgextension": "jpg",
             "isOverlay": false,
             "poititle": "Markers",
             "showlocationmarker": true,
             "center": [
-                635,
-                80,
-                1679
+                630,
+                64,
+                1680
             ],
             "minZoom": 0,
             "spawn": [
@@ -76,21 +77,48 @@ var overviewerConfig = {
             "base": "",
             "bgcolor": "#1a1a1a",
             "world": "Coronavalis - overworld",
-            "last_rendertime": 1592400137,
+            "last_rendertime": 1592451457,
             "imgextension": "jpg",
             "isOverlay": false,
             "poititle": "Markers",
             "showlocationmarker": true,
             "center": [
-                635,
-                80,
-                1679
+                630,
+                64,
+                1680
             ],
             "minZoom": 0,
             "spawn": [
                 635,
                 80,
                 1679
+            ],
+            "north_direction": 0
+        },
+        {
+            "name": "Overworld Natural",
+            "zoomLevels": 9,
+            "defaultZoom": 1,
+            "maxZoom": 9,
+            "path": "overworld_origins",
+            "base": "",
+            "bgcolor": "#1a1a1a",
+            "world": "Origins - overworld",
+            "last_rendertime": 1592507188,
+            "imgextension": "jpg",
+            "isOverlay": false,
+            "poititle": "Markers",
+            "showlocationmarker": true,
+            "center": [
+                630,
+                64,
+                1680
+            ],
+            "minZoom": 0,
+            "spawn": [
+                630,
+                80,
+                1680
             ],
             "north_direction": 0
         }
