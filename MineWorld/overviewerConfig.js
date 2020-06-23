@@ -28,7 +28,7 @@ var overviewerConfig = {
     ],
     "map": {
         "debug": true,
-        "cacheTag": "1592510938",
+        "cacheTag": "1592924671",
         "north_direction": "lower-left",
         "controls": {
             "pan": true,
@@ -50,7 +50,7 @@ var overviewerConfig = {
             "base": "",
             "bgcolor": "#1a1a1a",
             "world": "Coronavalis - overworld",
-            "last_rendertime": 1592451457,
+            "last_rendertime": 1592924408,
             "imgextension": "jpg",
             "isOverlay": false,
             "poititle": "Markers",
@@ -62,9 +62,9 @@ var overviewerConfig = {
             ],
             "minZoom": 0,
             "spawn": [
-                635,
+                630,
                 80,
-                1679
+                1680
             ],
             "north_direction": 0
         },
@@ -77,7 +77,7 @@ var overviewerConfig = {
             "base": "",
             "bgcolor": "#1a1a1a",
             "world": "Coronavalis - overworld",
-            "last_rendertime": 1592451457,
+            "last_rendertime": 1592924408,
             "imgextension": "jpg",
             "isOverlay": false,
             "poititle": "Markers",
@@ -89,9 +89,9 @@ var overviewerConfig = {
             ],
             "minZoom": 0,
             "spawn": [
-                635,
+                630,
                 80,
-                1679
+                1680
             ],
             "north_direction": 0
         },
